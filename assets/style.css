@@ -32,6 +32,7 @@ nav ul {
 
 nav li {
 	padding-inline: 10px;
+
 }
 
 nav a {
@@ -41,6 +42,7 @@ nav a {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -85,6 +87,7 @@ nav a {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: calc(1.275rem + 0.3vw);
 }
 #about-me p {
 	width: 80%;
@@ -109,6 +112,12 @@ nav a {
 .nav-pills .nav-link {
 	color: #000
 }
+
+/* ajout */
+.nav-item {
+	cursor: pointer;
+}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -261,7 +270,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h4, #about-me p {
+	#about-me h3, #about-me p {
 		width: 100%;
 	}
 }
@@ -287,6 +296,9 @@ input[type="submit"] {
 		text-align: center;
 		margin-top: 1em;
 	}
+
+
+
 	#services .container {
 		flex-direction: column;
 	}
@@ -367,4 +379,7 @@ input[type="submit"] {
 		font-size: 2.5rem;
 	}
 	
+	.about-me h3 {
+		font-size: 1.5rem;
+	}
 }

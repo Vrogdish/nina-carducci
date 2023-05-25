@@ -1,7 +1,4 @@
-@font-face {
-	font-family: ;
-	src: url();
-}
+
 
 body {
 	max-width: 1920px;
@@ -77,6 +74,8 @@ nav a {
 
 .picture img {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 
 }
 #about-me {
@@ -122,6 +121,7 @@ nav a {
 .nav-item {
 	cursor: pointer;
 }
+/*  */
 
 .item-column {
 	position: relative;

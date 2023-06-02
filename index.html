@@ -90,7 +90,6 @@
                 ./assets/images/slider/entreprise-1920.webp 1920w
               "
               sizes="100vw"
-				
               src="./assets/images/slider/entreprise-1920.webp"
               class="d-block w-100"
               alt="business man"
@@ -105,7 +104,6 @@
                 ./assets/images/slider/concert-1920.webp 1920w
               "
               sizes="100vw"
-			
               src="./assets/images/slider/concert-1920.webp"
               class="d-block w-100"
               alt="public de concert"
@@ -121,7 +119,6 @@
                 ./assets/images/slider/mariage-1920.webp 1920w
               "
               sizes="100vw"
-			
               src="./assets/images/slider/mariage-1920.webp"
               class="d-block w-100"
               alt="couple de mariés"
@@ -157,7 +154,6 @@
             ./assets/images/profil-600.webp 600w
           "
           sizes="100vw"
-
           src="./assets/images/profil-600.webp"
           alt="mon portrait"
         />
@@ -347,25 +343,34 @@
           <img src="./assets/images/camera.webp" alt="appareil photo" />
         </div>
       </div>
-    </div>
 
-    <div itemscope itemtype="http://schema.org/Photograph">
-      Nina Carducci - <span itemprop="name">Photographe</span>
-
+    <div class="schemas">
+      <div itemscope itemtype="http://schema.org/Photograph">
+        Nina Carducci - <span itemprop="name">Photographe</span>
+      </div>
       <div
         itemprop="address"
         itemscope
         itemtype="http://schema.org/PostalAddress"
       >
-        <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span> -
-        <span itemprop="postalCode">33200</span>
-        <span itemprop="addressLocality">Bordeaux</span>
-
-        - Mon numéro de téléphone :
-        <span itemprop="telephone">05 56 67 78 89</span>
-        - Je réponds au téléphone du lundi au vendredi de 10h à 19h.
+        <div>
+          <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span> -
+          <span itemprop="postalCode">33200</span>
+          <span itemprop="addressLocality">Bordeaux</span>
+        </div>
+        <div>
+          Mon numéro de téléphone :
+          <span itemprop="telephone">05 56 67 78 89</span>
+          <p>Je réponds au téléphone du lundi au vendredi de 10h à 19h.</p>
+        </div>
       </div>
     </div>
+
+
+    </div>
+
+
+
 
     <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
   </body>

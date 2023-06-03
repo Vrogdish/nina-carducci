@@ -157,15 +157,16 @@
       </div>
     </header>
     <div id="about">
-      <div class="picture left">
+      <div class="picture left" itemscope itemtype="https://schema.org/Person">
         <img
+          itemprop="image"
           srcset="
             ./assets/images/profil-400.webp 400w,
             ./assets/images/profil-600.webp 600w
           "
           sizes="100vw"
           src="./assets/images/profil-600.webp"
-          alt="mon portrait"
+          alt="Portrait de Nina Carducci" 
         />
       </div>
       <div id="about-me">
@@ -354,7 +355,7 @@
         </div>
       </div>
 
-      <div class="schemas">
+      <!-- <div class="schemas">
         <div
           itemprop="address"
           itemscope
@@ -369,7 +370,7 @@
           Je réponds au téléphone du lundi au vendredi de 10h à 19h.
         </div>
       </div>
-    </div>
+    </div> -->
 
     <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
   </body>
